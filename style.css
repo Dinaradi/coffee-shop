@@ -1,0 +1,924 @@
+.background{
+    background: linear-gradient(135deg, #FFF 0%, #FFF 0%, rgba(243, 244, 245, 0.20) 11.74%, #F3F4F5 27.92%, rgba(243, 244, 245, 0.00) 44.79%, rgba(243, 244, 245, 0.68) 60.42%, #F3F4F5 79.17%, #FFF 100%); 
+}
+
+/****** Navbar css ******/
+.navbar{
+    background: #EEEFF1;
+}
+
+.navbar--section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 120px 0; 
+}
+
+
+.navbar--section__right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar--links{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    float: left;
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar--buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar--buttons img {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.navbar--buttons > button{
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 63px;
+    background: #1B1B1D;
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+/******* Navbar css ********/
+
+
+/* Header css */
+
+.header{
+    background: #EEEFF1;
+}
+
+.header--section{
+    justify-content: space-between;
+    display: flex;
+    /* padding-bottom: 162px; */
+}
+
+.header--main__alowishus > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 124px;
+    font-weight: 800;
+}
+
+.coffee > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 124px;
+    font-weight: 800;
+}
+
+.coffee{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coffee > img{
+    margin-top: 2rem;
+}
+
+.header--section__text{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.header--main__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.header--main__text > p{
+    width: 530px;
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.header--bottom__text{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 162px;
+}
+
+.header--bottom__text > button {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 126px;
+    background: #1B1B1D;
+    border: none;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header--bottom__text > a{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.header--section__img{
+    display: flex;
+    position: relative;
+}
+
+.cafeof{
+    position: absolute;
+    top: 2%;
+    left: 75%;
+}
+
+
+.white--letter{
+    position: relative;
+    top: -39%;
+    left: 6%;
+    width: 280px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.letter--main{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px 24px;
+}
+
+.letter--main > p {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+
+/* Header css */
+
+/* Explore css */
+/* .explore{
+    background: linear-gradient(135deg, #FFF 0%, #FFF 0%, rgba(243, 244, 245, 0.20) 11.74%, #F3F4F5 27.92%, rgba(243, 244, 245, 0.00) 44.79%, rgba(243, 244, 245, 0.68) 60.42%, #F3F4F5 79.17%, #FFF 100%);
+} */
+
+.explore--section{
+    padding-top: 150px;
+    position: relative;
+}
+
+.explore--left__coffee{
+  position: absolute;
+  top: 54px;
+  left: -120px;
+}
+
+.explore-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.explore--title > h1{
+    color: #1B1B1D;
+    text-align: center;
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.explore--title > p{
+    display: block;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    color: #64646A;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+.explore--cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 190px;
+    gap: 30px;
+}
+
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 35px;
+    width: 393px;
+    height: 540px; 
+    border-radius: 24px;
+    background: linear-gradient(135deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+}
+
+.explore--card__top{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.explore--card__top > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.explore--card__top > p{
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+} 
+
+.explore--card__main{
+    display: flex;
+    align-items: center;
+}
+
+.explore--card__bottom > button{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 225px; 
+    border-radius: 126px;
+    background: #1B1B1D;
+    border: none;
+}
+/* Explore css */
+
+/* Order css */
+/* .order{
+    background: linear-gradient(135deg, #FFF 0%, #FFF 0%, rgba(243, 244, 245, 0.20) 11.74%, #F3F4F5 27.92%, rgba(243, 244, 245, 0.00) 44.79%, rgba(243, 244, 245, 0.68) 60.42%, #F3F4F5 79.17%, #FFF 100%);
+} */
+
+.order--section{
+    display: flex;
+    gap: 21px;
+}
+
+.order--img{
+    padding-left: -20px;
+    /* overflow: hidden; */
+}
+.order--text{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    padding-top: 50px;
+}
+
+.order--text__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.order--text__title > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.order--text__title > p {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.order--text > button {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 126px;
+    background: #1B1B1D;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+/* Order css */
+
+/* Selling css */
+.selling{
+    position: relative;
+}
+
+.selling--right__coffee{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.selling--section{
+    padding-top: 170.72px;
+    padding-bottom: 352px;
+}
+
+.selling--title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.selling--title > h1 {
+    color: #1B1B1D;
+    text-align: center;
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.selling--title > p {
+    color: #64646A;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.selling--section__cards{
+    gap: 30px;
+    display: flex;
+    padding-top: 178px;
+}
+
+.selling--card{
+    width: 393px;
+    height: 471px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+}
+
+.selling--card__top{
+    display: flex;
+}
+
+.card--top__img{
+    position: relative;
+}
+
+.card--top__img > img {
+    position: absolute;
+    top: -35%;
+}
+
+.card--top__text{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 41px 30px;
+    flex: 1;
+}
+
+.card--top__text > p {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card--top__text > h1 {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 600;
+}
+.selling--card__main{
+    padding-left: 30px;
+    padding-right: 36px;
+}
+
+.selling--card__bottom{
+    display: flex;
+    gap: 63px;
+    padding-top: 40px;
+    /* padding-left: 30px; */
+    justify-content: center;
+    /* padding-bottom: 35px; */
+}
+
+.selling--card__main > p {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.selling--card__bottom > span{ 
+    display: flex;
+    align-items: center;
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.selling--card__bottom > button {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 126px;
+    background: #1B1B1D;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* Selling css */
+
+
+/* Instant css */
+
+.instant {
+    position: relative;
+}
+
+.instant--left__coffee{
+    position: absolute;
+    top: -40%;
+    left: 0%;
+}
+
+.instant--section{
+   display: flex;
+   padding: 4rem 0 20rem 0;
+}
+
+.instant--text{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+ 
+.instant--title__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.instant--title__text > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.instant--title__text > p {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.instant--text > button {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 126px;
+    background: #1B1B1D;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+.instant--imgs{
+    width: 50%;
+}
+
+ .mobi--img{
+    position: relative;
+}
+
+.mobi--img img {
+    position: absolute;
+    left: 80%;
+    top: -200px;
+    transform: translateX(-50%);
+}
+
+.mobi--img img:first-child {
+    z-index: 2;
+}
+
+.mobi--img img:nth-child(2) {
+    z-index: 1;
+    transform: rotate(-15deg);
+    left: 25%;
+}
+
+/* Instant css */
+
+
+/* Customers css */
+.customers{
+    position: relative;
+}
+.customers--right__coffee{
+    position: absolute;
+    top: 10%;
+    left: 76%;
+}
+
+.customers--section{
+    display: flex;
+}
+.customers--img{
+    width: 50%;
+}
+
+.customers--img .block {
+    display: flex;
+    gap: 35px;
+    margin-left: -200px;
+}
+
+.customers--card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.customers--card__header {
+    width: 100%;
+}
+
+.customers--card__header img {
+    width: 468px;
+    height: 324px;
+}
+
+.customers--card__body {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    gap: 16px;
+}
+
+.customers--card__footer {
+    padding: 0 40px 40px 40px;
+    color: var(--accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.name > span{
+    color: var(--accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.customers--card{
+    border-radius: 16px;
+    background: linear-gradient(135deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+}
+
+
+.customers--text{
+    width: 50%;
+    margin-left: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.customers--text__title {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+.customers--number{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.customers--number > p{
+    color: var(--accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.number--about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+/* Customers css */
+
+
+/* Footer css */
+.footer--section{
+    padding-top: 210px;
+}
+
+.footer--main{
+    display: flex;
+    gap: 225px;
+}
+
+.footer--left{
+    display: flex;
+    flex-direction: column;
+    gap: 109px
+}
+
+.logo--text{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.logo--text > p{
+    color: var(--body-text, #64646A);
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.location{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.location--bottom{
+    display: flex;
+    gap: 4px;
+    padding-top: 60px;
+}
+
+.location--bottom > a {
+    color: var(--accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.location--bottom > img {
+    display: flex;
+    align-items: center;
+}
+
+.location--text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.location--text > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.location--text > p {
+    color: var(--body-text, #64646A);
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+}
+.footer--right{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contact > h1{
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.white--round{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.email > p {
+    color: var(--body-text, #64646A);
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.phone--number{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.phone--number > p{
+    color: var(--body-text, #64646A);
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.icons{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.signin{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.signin > h1 {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.signin > input{
+    width: 413px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 65px;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    border: none;
+
+    color: var(--body-text, #64646A);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 30px;
+}
+
+.signin > button {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 126px;
+    background: #1B1B1D;
+
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+.border--bottom{
+    width: 1240px;
+    height: 1px;
+    opacity: 0.1;
+    background: #1B1B1D;
+    margin-top: 70px;
+}
+
+.footer--bottom{
+    display: flex;
+    gap: 582px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer--bottom  p{
+    color: var(--body-text, #64646A);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer--bottom   span {
+    color: var(--accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* Footer css */
+
+
+
