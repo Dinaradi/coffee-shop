@@ -1,82 +1,6 @@
-/* Mobile  */
-
-/* Navbar  */
-.icons{
-    position: absolute;
-    font-size: 2.8rem;
-    right: 5%;
-    color: #222;
-    cursor: pointer;
-    display: none;
-}
- 
-#check {
-    display: none;
-}
-
-@media (max-width: 992px) {
-    .navbar--section {
-        padding: 1.3rem 5%;
-    }
-}
-
-@media(max-width: 768px) {
-    .icons{
-        display: inline-flex;
-    }
-
-    #check:cheched ~.icons #menu-icon{
-        display: none;
-    }
-
-    .icons #close-icon{
-        display: none;
-    }
-
-    #check:checked~.icons #close-icon {
-        display: block;
-    }
-
-    .navbar--links{
-        position: absolute;
-        top: 30%;
-        left: 0;
-        width: 100%;
-        height: 0;
-        background-color: rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(50px);
-        box-shadow: 0 .5rem rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        transition: .3s ease;
-    } 
-
-    #check:checked~.navbar {
-        height: 17.7rem;
-    }
-
-    /* .navbar--section__right */
-     .navbar--links > a{
-        display: block;
-        font-size: 1.1rem;
-        margin: 1.5rem 0;
-        text-align: center;
-        transform: translateY(-50px);
-        opacity: 0;
-        transition: .3s ease;
-    }
-
-    #check:checked~.navbar a {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-/* Navbar  */
-
-
-
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
     .container {
         padding: 0 1rem;
@@ -85,21 +9,21 @@
 
     .navbar--logo{
         width: 30%;
-    }
-    .header--section{
+    } */
+    /* .header--section{
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
         align-content: center;
         justify-content: center;
 
-    }
+    } */
 
-    .header--main__text{
-        align-content: center;
+    /* .header--main__text{ */
+        /* align-content: center; */
         /* padding: auto;
         margin: auto; */
-    }
-
+    /* } */
+/* 
     .header--main__alowishus > h1{
         align-content: center;
         font-family: Jost;
@@ -107,8 +31,8 @@
         padding: auto;
         font-size: 50px;
         font-weight: 800;
-    }
-    .coffee{
+    } */
+    /* .coffee{
         display: flex;
     }
 
@@ -118,106 +42,101 @@
         margin: auto;
         padding: auto;
         font-size: 50px;
-        font-weight: 800;
+        font-weight: 800; */
         /* position: absolute; */
-    }
+    /* } */
 
-    .coffee > img {
+    /* .coffee > img { */
         /* position: relative; */
-        /* padding-left: 70%; */
+        /* padding-left: 70%;
         width: 20%;
         height: 20%;
         display: flex;
         align-items: center;
-        padding-top: 0%;
+        padding-top: 0%; */
         /* height: auto; */
-    }
-
+    /* } */
+/* 
     .header--section__img{
         display: none;
-    }
+    } */
 
-    .header--main__text > p{
+    /* .header--main__text > p{
         font-size: 15px;
         font-weight: 400;
-    }
+    } */
 
-    .header--bottom__text > button {
+   
+
+    /* .explore--title > h1{
+        width: 30%;
+        font-size: 104%;
+        font-weight: 800;
+    } */
+
+    /* .explore--title > p {
+        width: 30%;
+        font-size: 70%;
+        padding: auto;
+    } */
+
+    /* .explore--cards{
         display: flex;
+        flex-direction: column;
+    } */
+
+    /* .explore--left__coffee{
+        display: none;
+    } */
+
+    /* .card{
+        margin: 0 25% 0;
+        width: 25%;
+        height: 30%;
+    } */
+
+    /* .explore--card__top{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        padding: auto;
+    } */
+
+    /* .explore--card__top h1{
+        font-size: 100%;
+    } */
+
+    /* .explore--card__top p {
+        font-size: 100%;
+    } */
+
+    /* .explore--card__bottom {
+        display: flex;
+        justify-content: center;
         width: 40%;
         font-size: 15px;
         font-weight: 500;
         padding: 15% 25%;
-    }
-
-    .explore--title > h1{
-        width: 30%;
-        font-size: 104%;
-        font-weight: 800;
-    }
-
-    .explore--title > p {
-        width: 30%;
-        font-size: 70%;
-        padding: auto;
-    }
-
-    .explore--cards{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .explore--left__coffee{
-        display: none;
-    }
-
-    .card{
-        margin: 0 25% 0;
-        width: 25%;
-        height: 30%;
-    }
-
-    .explore--card__top{
-        /* width: 20%; */
-        display: flex;
-        align-items: center;
-        padding: auto;
-    }
-    .explore--card__top h1{
-        font-size: 100%;
-    }
-
-    .explore--card__top p {
-        font-size: 100%;
-    }
-
-    .explore--card__bottom {
-        display: flex;
-        justify-content: center;
-        width: 40%;
-        font-size: 15px;
-        font-weight: 500;
-        /* padding: 15% 25%; */
        
-    }
+    } */
 
-    .order--section{
+    /* .order--section{
         display: flex;
         flex-direction: column;
-    }
+    } */
 
-    .order--img{
+    /* .order--img{
        display: none;
-    }
+    } */
 
-    .order--text__title  h1{
+    /* .order--text__title  h1{
         display: flex;
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
         font-size: 104%;
         font-weight: 800;
-        /* align-content: center; */
-        /* font-family: Jost; */
+        align-content: center;
+        font-family: Jost;
         font-weight: 800;
     }
 
@@ -225,43 +144,43 @@
         width: 30%;
         font-size: 70%;
         padding: auto;
-    }
+    } */
 
-    .order--text > button{
+    /* .order--text > button{ */
         /* display: flex; */
         /* width: 40%; */
-        font-size: 50%;
-        font-weight: 500;
+        /* font-size: 50%;
+        font-weight: 500; */
         /* padding: -10% -10%; */
         /* padding: 15% 25%; */
-    }
+    /* } */
 
  
     /* Selling section */
 
-    .selling--right__coffee{
+    /* .selling--right__coffee{
         display: none;
-    }
+    } */
 
-    .selling--section__cards{
+    /* .selling--section__cards{
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
         justify-content: space-around;
         gap: 80px;
         padding-top: 4rem !important;
-    }
-
+    } */
+/* 
     .selling--card {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         padding: 35px 0;
         width: 100% !important;
-    }
+    } */
 
-    .card--top__img {
+    /* .card--top__img {
         width: 50% !important;
     }
 
@@ -274,13 +193,6 @@
         padding: 0;
     }
 
-    /* .selling--section__cards{
-        margin: 0 auto 0;
-        display: flex;
-        justify-content: center;
-        padding-top: 300%;
-    } */
-
     .selling--title{
         display: flex;
         align-items: center;
@@ -288,28 +200,28 @@
 
     .selling--title h1{
         font-size: 100%;
-    }
+    } */
 
-    .selling--title p{
+    /* .selling--title p{ */
         /* width: 30%; */
-        font-size: 70%;
+        /* font-size: 70%; */
         /* padding: auto; */
-    }
-
+    /* } */
+/* 
     .card--top__text h1{
         font-size: 100%;
         font-weight: 800;
-    }
+    } */
 
-    .card--top__text p {
+    /* .card--top__text p {
         font-size: 100%;
-    }
+    } */
 
-    .selling--card__main{
+    /* .selling--card__main{
         font-size: 100%;
-    }
+    } */
 
-    .instant--left__coffee{
+    /* .instant--left__coffee{
         display: none;
     }
 
@@ -326,8 +238,8 @@
     .instant--title__text h1{
         font-weight: 800;
         font-size: 100%;
-    }
-
+    } */
+/* 
     .instant--title__text p {
         font-size: 100%;
         width: 50%;
@@ -336,40 +248,525 @@
     .instant--text > button{
         display: flex;
         /* align-items: center; */
-        justify-content: center;
-        /* width: 40%; */
+        /* justify-content: center; */
+        /* width: 40%;
         font-size: 55%;
+        font-weight: 500; */
+    /* }
+} */ 
+
+
+
+/* For Mobile devices */
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+        width: 100% !important;
+    }
+
+    /* Navbar section mobile css */
+    .navbar--logo > img{
+        width: 70%; 
+    }
+
+    .navbar--section{
+        padding-bottom: 20%;
+    }
+
+    .navbar--section__right{
+        display: none;
+    }
+    /* Navbar section mobile css */
+
+
+    /* Header section mobile css */
+
+    .header--section{
+        display: flex;
+        align-items: center;
+    }
+
+    .header--main__alowishus > h1{
+        font-weight: 800;
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .coffee > h1{
+        margin-left: 2rem;
+        font-weight: 800;
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .coffee > img{
+        width: 10%;
+        height: 10%;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    .header--section__img{
+        display: none;
+    }
+
+     .header--main__text{
+        /* display: flex;
+        align-items: center;  */
+    }
+
+    .header--main__text > p{
+        /* text-align: center; */
+        font-size: 0.8rem;
+    }
+
+    .header--bottom__text > button{
+        font-size: 0.8rem;
+        padding: 1rem 1rem;
+    }
+
+    .header--bottom__text > a {
+        font-size: 0.8rem;
+    }
+
+    .header--bottom__text{
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Header section mobile css */
+
+
+    /* Explore section mobile css */
+    .explore--left__coffee{
+        display: none;
+    }
+
+    .explore--title{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px
+    }
+
+    .explore--title > h1{
+            font-size: 150%;
+            font-weight: 800;
+    }
+
+    .explore--title p {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .explore--cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        margin: 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore--card__top{
+        display: flex;
+        align-items: center;
+    }
+
+    .explore--card__top > h1{
+        font-size: 100%;
+        font-weight: 600;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .explore--card__top > p{
+        font-weight: 400;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .explore--card__main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .explore--card__main > img {
+        width: 70%;
+        display: flex;
+    }
+
+    .explore--card__bottom > button{
         font-weight: 500;
+        font-size: 65%;
+        padding: 1rem 1rem;
+        width: 100%;
     }
+     /* Explore section mobile css */
 
-    .instant--imgs{
+
+
+     /* Order section mobile css */
+     .order--section{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .order--img{
         display: none;
-    }
+     }
 
-    .customers--right__coffee {
-      display: none;
-    }
+     .order--text{
+        display: flex;
+        align-items: center;
+     }
 
-    .customers--section{
+     .order--text__title{
+         padding: 0 1rem;
+         display: flex;
+         align-items: center;
+     }
+
+     .order--text__title > h1{
+        font-size: 1rem;
+     }
+
+     .order--text__title > p {
+        font-weight: 400;
+        font-size: 100%;
+        text-align: center;
+     }
+
+     .order--text > button{
+        font-size: 0.7rem;
+        padding: 1rem 1rem;
+     }
+     /* Order section mobile css */
+
+
+     /* Selling section mobile css */
+     .selling--right__coffee{
         display: none;
+     }
+
+     .selling--title{
+        display: flex;
+        align-items: center;
+     }
+
+     .selling--title > h1{
+        font-size: 1.5rem;
+     }
+
+     .selling--title > p {
+        font-size: 0.8rem
+     }
+
+     .selling--section__cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+            gap: 80px;
+            padding-top: 4rem !important;
+     }
+
+     .selling--card {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 35px 0;
+        width: 100% !important;
+    } 
+
+     .card--top__img {
+        width: 50% !important;
     }
 
-    .footer--section{
-        display: none;
+    .card--top__img img {
+        top: -48%;
+        width: 80%;
     }
+
+    .selling--card__bottom {
+        padding: 0;
+    }
+
+    .selling--title{
+        display: flex;
+        align-items: center;
+    }
+
+    .card--top__text h1{
+        font-size: 1.5rem;
+    }
+
+     .card--top__text p { 
+        font-size: 100%;
+    } 
+
+    .selling--card__main{
+        font-size: 100%;
+    } 
+
+    .selling--card__main > p{
+        font-size: 100%;
+    }
+    
+    .selling--card__bottom{
+        display: flex;
+        align-items: center;
+        padding: 0;
+     }
+
+     .selling--card__bottom > button {
+        font-size: 50%;
+     }
+
+     .selling--card__bottom > span{
+        font-size: 100%;
+     }
+
+     .selling--section {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+     }
+      /* Selling section mobile css */
+
+
+      /* Instant section mobile css */
+      .instant--left__coffee{
+        display: none;
+      }
+
+      .instant--imgs{
+        display: none;
+      }
+
+      .instant--text{
+        display: flex;
+        align-items: center;    
+      }
+
+      .instant--text > button {
+        font-size: 65%;
+        padding: 1rem 1rem;
+      }
+
+      .instant--title__text > h1 {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+      }
+
+      .instant--title__text > p{
+        font-size: 100%;
+        text-align: center;
+     }
+
+     .instant--section {
+        padding-bottom: 30%;
+     }
+      /* Instant section mobile css */
+
+
+      /* Customers section mobile css */
+      .customers--section{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .customers--right__coffee{
+        display: none;
+      }
+
+      .customers--card{
+        display: none;
+      }
+
+      .customers--text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers--text > h1{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .customers--number{
+        display: flex;
+        width: 100%;
+    }
+
+    .customers--number > p {
+        font-size: 1.5rem;
+    }
+
+    .number--about{
+        width: 100%;
+    }
+
+    .starts{
+        display: flex;
+        width: 100%;
+    }
+
+    .number--about > p {
+        font-size: 0.7rem;
+    }
+      /* Customers section mobile css */
+
+
+      /* Footer section mobile css */
+      .footer--section{
+        padding-top: 5rem;
+      }
+
+      .footer--left{
+        display: none;
+      }
+
+      .footer--right{
+        display: flex;
+      }
+
+      .contact > h1{
+        font-size: 1.5rem;
+      }
+
+      .email > p{
+        font-size: 1rem;
+      }
+
+      .white--round{
+        padding: 0.4rem;
+      }
+
+      .white--round > img{
+        padding: 0.3rem;
+      }
+      
+      .email{
+        width: 50%;
+      }
+
+      .phone--number > p{
+        font-size: 1rem;
+      }
+
+      .signin {
+        display: flex;
+        align-items: center;
+      }
+
+      .signin > h1{
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .signin > input {
+        width: 100%;
+        font-size: 1rem;
+      }
+
+      .signin > button {
+        padding: 1rem 1rem;
+        font-size: 0.7rem;
+      }
+
+      .icons{
+        width: 100%;
+      }
+
+        .border--bottom{
+            width: 100%;
+            display: flex;
+        }
+
+        .footer--bottom{
+            display: flex;
+            align-content: center;
+        }
+
+        .footer--bottom  p{
+            font-size: 0.7rem;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .footer--bottom span{
+            display: none;
+        }
+
+        .footer--bottom > .policy{
+            display: none;
+        }
+      
+       /* Footer section mobile css */
+}
+
+
+/* For Tabletd or iPad */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+        width: 100% !important;
+    }
+
+    /* Explore section mobile css */
+
+/* 
+    .explore--title{
+        display: flex;
+        align-items: center;
+        /* align-content: center; */
+        /* justify-content: center; */
+    
+
+    /* .explore--title > h1{
+        font-size: 1rem;
+    } */
+
+    /* .explore--title > p{
+        font-size: 0.7rem;
+    } */
+
+
+    /* Explore section mobile css */
+}
+
+/* For Laptop or small-size scree */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* For Desktop or large-size scree */
+@media only screen and (min-width: 1024px) and(max-width: 1200px) {
 
 }
 
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/* For Extra-large size device */
+@media only screen and (min-width: 1024px){
+    
+}
