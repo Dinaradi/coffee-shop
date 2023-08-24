@@ -115,7 +115,7 @@
 }
 
 .header--main__text > p{
-    width: 530px;
+    /* width: 530px; */
     color: #64646A;
     font-family: Jost;
     font-size: 24px;
