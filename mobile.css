@@ -560,7 +560,9 @@
 
       .instant--text{
         display: flex;
-        align-items: center;    
+        align-items: center; 
+        width: 100%;  
+        padding: 0 1rem; 
       }
 
       .instant--text > button {
@@ -569,13 +571,12 @@
       }
 
       .instant--title__text > h1 {
-        display: flex;
-        align-items: center;
+        text-align: center;
         font-size: 1rem;
       }
 
       .instant--title__text > p{
-        font-size: 100%;
+        font-size: 0.8rem;
         text-align: center;
      }
 
@@ -637,6 +638,9 @@
       /* Footer section mobile css */
       .footer--section{
         padding-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
       }
 
       .footer--left{
@@ -645,13 +649,19 @@
 
       .footer--right{
         display: flex;
+        /* align-items: center; */
+        justify-content: center;
       }
 
       .contact > h1{
+        width: 100%;
         font-size: 1.5rem;
+        text-align: center;
       }
 
       .email > p{
+        width: 100%;
+        align-items: center;
         font-size: 1rem;
       }
 
@@ -664,10 +674,11 @@
       }
       
       .email{
-        width: 50%;
+        width: 100%;
       }
 
       .phone--number > p{
+        width: 100%;
         font-size: 1rem;
       }
 

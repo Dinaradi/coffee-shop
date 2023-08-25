@@ -437,7 +437,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    padding: 41px 30px;
+    padding: 41px 193px;
     flex: 1;
 }
 
@@ -521,7 +521,7 @@
 }
 
 .instant--text{
-    width: 50%;
+    /* width: 50%; */
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
